@@ -1,4 +1,4 @@
-# Spin up Mac OS developer
+# Spin up Mac OS [Catalina] developer
 
 By default macOs Catalina ships with a pre-installed git version.
 
@@ -16,7 +16,7 @@ On macOS, the command to install Homebrew is:
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
-More at: [A practical guide to Homebrew](https://flaviocopes.com/homebrew/)[A practical guide to Homebrew](https://flaviocopes.com/homebrew/)
+More: [A practical guide to Homebrew](https://flaviocopes.com/homebrew/)
 
 ## Homebrew and git ([Credit](https://stackoverflow.com/questions/8957862/how-to-upgrade-git-to-latest-version-on-macos/48953680#48953680))
 
@@ -57,6 +57,12 @@ rm -rf fonts
 ## Iterm
 
 Set bg to 10% Grey
+
+## Yarn
+
+```bash
+brew install yarn
+```
 
 ## NPM
 
