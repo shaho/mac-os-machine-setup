@@ -1,5 +1,19 @@
 # Spin up Mac OS [Catalina] developer
 
+👋 Hello friend!, This repo is a personal knowledge management and sharing system.
+
+## Table of Contents
+
+- Getting started
+- Homebrew
+- Git
+
+- Powerline fonts
+- Iterm
+- Yarn
+- NPM
+- Typescript
+
 By default macOs Catalina ships with a pre-installed git version.
 
 Check the installed `git` version:
@@ -37,6 +51,22 @@ Symbolic link
 
 ```bash
 brew link --force git
+```
+
+## Git
+
+### Git useful commands
+
+#### Git Revert
+
+Note: Git revert in depth: [Link](https://stackoverflow.com/questions/4114095/how-do-i-revert-a-git-repository-to-a-previous-commit)
+
+Reverting to a specific commit based on commit id with Git [Link](https://stackoverflow.com/questions/3639115/reverting-to-a-specific-commit-based-on-commit-id-with-git?lq=1)
+
+```bash
+git reset --hard <logid>
+# example
+git reset --hard 06a2331d1d1c750aec97788fe4b9a2e686298844
 ```
 
 ## Powerline fonts
