@@ -116,6 +116,12 @@ Install typescript:
 brew install typescript
 ```
 
+## Adobe Creative Cloud ([Credit](https://apple.stackexchange.com/a/138945/331053))
+
+```bash
+launchctl unload -w /Library/LaunchAgents/com.adobe.AdobeCreativeCloud.plist
+```
+
 ## Terminal Commands
 
 Clear command from terminal (clear/delete the current line):
