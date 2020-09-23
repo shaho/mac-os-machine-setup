@@ -102,7 +102,7 @@ Get list of globally installed packages:
 npm list -g --depth 0
 ```
 
-Uninstalling global packages:
+Uninstall global packages:
 
 ```bash
 npm uninstall -g <package_name>
