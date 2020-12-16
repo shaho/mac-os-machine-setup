@@ -1,6 +1,6 @@
 # Spin up Mac OS [Catalina] developer
 
-👋 Hello friend!, This repo is a personal knowledge management and sharing system.
+👋 Hello friend!, This repo is a personal knowledge management and sharing system, feel free to add your tips.
 
 ## Table of Contents
 
@@ -109,7 +109,7 @@ Get list of globally installed packages:
 npm list -g --depth 0
 ```
 
-Uninstalling global packages:
+Uninstall global packages:
 
 ```bash
 npm uninstall -g <package_name>
