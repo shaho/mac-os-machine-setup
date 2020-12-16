@@ -94,6 +94,13 @@ Set bg to 10% Grey
 brew install yarn
 ```
 
+Update npm packages to the latest version:
+
+```bash
+yarn add react@latest
+npm i react@latest
+```
+
 ## NPM
 
 Get list of globally installed packages:
@@ -108,12 +115,31 @@ Uninstalling global packages:
 npm uninstall -g <package_name>
 ```
 
+Uninstalling ackages:
+
+```bash
+npm un <package_name>
+```
+
 ## Typescript
 
 Install typescript:
 
 ```bash
 brew install typescript
+```
+
+## Postgres DB
+
+```bash
+brew install postgresql@<VERSION>
+brew install postgresql@12
+```
+
+## TypeORM
+
+```bash
+npm i typeorm -g
 ```
 
 ## Adobe Creative Cloud ([Credit](https://apple.stackexchange.com/a/138945/331053))
